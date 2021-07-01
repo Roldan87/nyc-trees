@@ -83,7 +83,7 @@ The next columns have been removed for data redundancy:
 >
 >problems --> `Removed`
 
-### Final `DataFrame` render:
+### Final `NYC Trees DataFrame` render:
 
 >`RangeIndex: 100000 entries, 0 to 99999`
 >
