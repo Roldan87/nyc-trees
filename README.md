@@ -52,7 +52,7 @@ Here is the list of the actual columns names and dtypes:
 >13. user_type --> `object`
 >14. root_stone --> `bool`
 >15. root_grate --> `bool`
->16. root_other --> ´bool´
+>16. root_other --> `bool`
 >17. trunk_wire --> `bool`
 >18. trunk_light --> `bool`
 >19. trunk_other --> `bool`
