@@ -1,5 +1,7 @@
 # NYC Street Trees Census - Tree Data
 
+![NYC Picture (Image)](https://viajes.nationalgeographic.com.es/medio/2018/11/07/figuras-geometricas-en-central-park_59ddbc26_794x447.jpg)
+
 ## The Mission
 
 The Department of Environmental Conservation, from New York City, has recently made the news by telling the people that they needed their help. 
