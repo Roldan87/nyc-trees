@@ -15,5 +15,31 @@ My mission, should I choose to accept it, is to help them clean the data so that
 >`Readme.md`
 >
 > `nyc_trees_dataset.csv`
->
->
+
+## Data Cleaning
+
+### Missing values (null):
+
+>`health        4993`
+>`spc_latin     4992`
+>`spc_common    4992`
+>`steward       4992`
+>`guards        4992`
+>`sidewalk      4992`
+>`problems      4992`
+
+The method chosen to deal with this was to fill these empty cells with a new value;
+`"Unknown"` was created to prevent the loss of the rest of the data from these rows.
+
+### DataTypes
+
+Most of the columns had the correct `dtype`, but the following were changed:
+
+
+
+
+
+
+`RangeIndex: 100000 entries, 0 to 99999`
+
+`Data columns (total 40 columns)`
