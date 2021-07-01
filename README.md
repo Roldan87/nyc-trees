@@ -77,7 +77,7 @@ Here is the list of the actual columns names and dtypes:
 >38. X_sp_coord --> `float64`
 >39. Y_sp_coord --> `float64`
 
-The next columns removed for data redundancy:
+The next columns had been removed for data redundancy:
 
 >the_geom --> `Removed`
 >
