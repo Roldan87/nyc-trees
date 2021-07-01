@@ -80,6 +80,7 @@ Here is the list of the actual columns names and dtypes:
 The next columns removed for data redundancy:
 
 >the_geom --> `Removed`
+>
 >problems --> `Removed`
 
 ### Final `DataFrame` render:
