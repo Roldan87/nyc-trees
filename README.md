@@ -84,12 +84,12 @@ The next columns removed for data redundancy:
 
 ### Final `DataFrame` render:
 
-`RangeIndex: 100000 entries, 0 to 99999`
-
-`100000 non-null`
-
-`Data columns (total 40 columns)`
-
-`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(15)`
-
-`memory usage: 24.5+ MB`
+>`RangeIndex: 100000 entries, 0 to 99999`
+>
+>`100000 non-null`
+>
+>`Data columns (total 40 columns)`
+>
+>`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(15)`
+>
+>`memory usage: 24.5+ MB`
