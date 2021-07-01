@@ -20,26 +20,73 @@ My mission, should I choose to accept it, is to help them clean the data so that
 
 ### Missing values (null):
 
->`health        4993`
->`spc_latin     4992`
->`spc_common    4992`
->`steward       4992`
->`guards        4992`
->`sidewalk      4992`
->`problems      4992`
+>`health        4993`<br/>
+>`spc_latin     4992`<br/>
+>`spc_common    4992`<br/>
+>`steward       4992`<br/>
+>`guards        4992`<br/>
+>`sidewalk      4992`<br/>
+>`problems      4992`<br/>
 
-The method chosen to deal with this was to fill these empty cells with a new value;
+The method chosen to deal with this was to fill these empty cells with a new value.
 `"Unknown"` was created to prevent the loss of the rest of the data from these rows.
 
-### DataTypes
+### Columns Names & DataTypes
 
-Most of the columns had the correct `dtype`, but the following were changed:
+Some names were changed for better readability, as well as some `dtype` were changed for better usage.<br/>
+Here is the list of the actual columns names and dtypes:
 
+>0. creation_date --> `datetime64[ns]`
+>1. tree_id --> `int64`
+>2. block_id --> `int64`
+>3. breast_diameter --> `int64`
+>4. stump_diameter --> `int64`
+>5. curb_location --> `object`
+>6. status  --> `object`
+>7. health  --> `object`
+>8. latin_name  --> `object`
+>9. common_name  --> `object`
+>10. steward  --> `object`
+>11. guards  --> `object`
+>12. sidewalk  --> `object`
+>13. user_type --> `object`
+>14. root_stone --> `bool`
+>15. root_grate --> `bool`
+>16. root_other --> ´bool´
+>17. trunk_wire --> `bool`
+>18. trunk_light --> `bool`
+>19. trunk_other --> `bool`
+>20. branch_light --> `bool`
+>21. branch_shoe --> `bool`
+>22. branch_other --> `bool`
+>23. address --> `object`
+>24. zipcode --> `int64`
+>25. zip_city --> `object`
+>26. com_board --> `int64`
+>27. borocode --> `int64`
+>28. boroname --> `object`
+>29. council_distr --> `int64`
+>30. state_assem --> `int64`
+>31. state_senate --> `int64`
+>32. nta_code --> `object`
+>33. nta_name --> `object`
+>34. census_track --> `int64`
+>35. state --> `object`
+>36. latitude --> `float64`
+>37. longitude --> `float64`
+>38. X_sp_coord --> `float64`
+>39. Y_sp_coord --> `float64`
 
+The next columns removed for data redundancy:
 
+>the_geom --> `Removed`
+>problems --> `Removed`
 
-
+### Final `DataFrame` render:
 
 `RangeIndex: 100000 entries, 0 to 99999`
 
 `Data columns (total 40 columns)`
+
+`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(15)`
+`memory usage: 24.5+ MB`
