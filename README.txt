@@ -1,6 +1,6 @@
-# NYC Street Trees Census - Tree Data<br/>
+#  NYC Street Trees Census - Tree Data<br/>
 
-## The Mission<br/>
+##  The Mission<br/>
 
 >The Department of Environmental Conservation, from New York City, has recently made the news by telling the people that<br/> 
 >they needed their help. Indeed, their request is simple:<br/>
@@ -12,7 +12,7 @@
 ><br/>
 >I will help them clean the data so that they can begin to raise awareness to ecological issues, such as climate change.<br/>
 
-## Files included<br/>
+##  Files included<br/>
 
 >
 >Readme.md<br/>
