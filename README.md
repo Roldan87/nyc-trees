@@ -73,7 +73,11 @@ Here is the list of the actual columns names and dtypes:
 
 The next columns have been removed for data redundancy:
 
->the_geom --> `Removed` overlapping longitude and latitude
+>the_geom --> `Removed` (overlapping longitude and latitude)
+>
+>boroname --> `Removed` (overlapping borocode)
+>
+>zip_city --> `Removed` (overlapping zipcode)
 >
 >root_stone / root_grate / root_other -->  `Removed` <br/>
 >trunk_wire / trunk_light / trunk_other -->  `Removed` <br/>
