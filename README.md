@@ -55,15 +55,15 @@ Here is the list of the actual columns names and dtypes:
 >14. problems --> òbject` 
 >15. address --> `object`
 >16. zipcode --> `int64`
->17. zip_city --> `object`
+
 >18. com_board --> `int64`
 >19. borocode --> `int64`
->20. boroname --> `object`
+
 >21. council_distr --> `int64`
 >22. state_assem --> `int64`
 >23. state_senate --> `int64`
 >24. nta_code --> `object`
->25. nta_name --> `object`
+
 >26. census_track --> `int64`
 >27. state --> `object`
 >28. latitude --> `float64`
@@ -78,6 +78,8 @@ The next columns have been removed for data redundancy:
 >boroname --> `Removed` (overlapping borocode)
 >
 >zip_city --> `Removed` (overlapping zipcode)
+>
+>nta_name --> `Removed`(overlapping nta)
 >
 >root_stone / root_grate / root_other -->  `Removed` <br/>
 >trunk_wire / trunk_light / trunk_other -->  `Removed` <br/>
