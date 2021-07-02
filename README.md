@@ -75,9 +75,7 @@ The next columns have been removed for data redundancy:
 
 >the_geom --> `Removed` overlapping longitude and latitude
 >
->root_stone / root_grate / root_other / trunk_wire / trunk_light / trunk_other / branch_light / branch_shoe / branch_other -->  `Removed`
->
-> problems --> Kept to sum up all trees problems in 1 column.
+>root_stone / root_grate / root_other / trunk_wire / trunk_light / trunk_other / branch_light / branch_shoe / branch_other -->  `Removed` (problems --> Kept to sum up all trees problems in 1 column)
 
 ## Final `NYC Trees DataFrame` render:
 
