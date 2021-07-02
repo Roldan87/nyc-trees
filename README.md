@@ -38,38 +38,34 @@ The method chosen to deal with this was to fill these empty cells with a new val
 Some names were changed for better readability, as well as some `dtype` were changed for better usage.<br/>
 Here is the list of the actual columns names and dtypes:
 
->0. creation_date --> `datetime64[ns]`
->1. tree_id --> `int64`
->2. block_id --> `int64`
->3. breast_diameter --> `int64`
->4. stump_diameter --> `int64`
->5. curb_location --> `object`
->6. status  --> `object`
->7. health  --> `object`
-
->9. tree_name  --> `object`
->10. steward  --> `object`
->11. guards  --> `object`
->12. sidewalk  --> `object`
->13. user_type --> `object`
->14. problems --> òbject` 
->15. address --> `object`
->16. zipcode --> `int64`
-
->18. com_board --> `int64`
->19. borocode --> `int64`
-
->21. council_distr --> `int64`
->22. state_assem --> `int64`
->23. state_senate --> `int64`
->24. nta_code --> `object`
-
->26. census_track --> `int64`
->27. state --> `object`
->28. latitude --> `float64`
->29. longitude --> `float64`
->30. X_sp_coord --> `float64`
->31. Y_sp_coord --> `float64`
+>0   creation_date    		100000 non-null  	datetime64[ns]
+>1   tree_id          		100000 non-null  	int64         
+>2   block_id      		100000 non-null  	int64         
+>3   breast_diameter  	100000 non-null  	int64         
+>4   stump_diameter   	100000 non-null  	int64         
+>5   curb_location    		100000 non-null  	object        
+>6   status           		100000 non-null  	object        
+>7   health           		100000 non-null  	object        
+>8   tree_name        		100000 non-null  	object        
+>9   steward          		100000 non-null  	object        
+>10  guards           		100000 non-null  	object        
+>11  sidewalk         		100000 non-null  	object        
+>12  user_type        		100000 non-null  	object        
+>13  problems         		100000 non-null  	object        
+>14  address          		100000 non-null  	object        
+>15  zipcode          		100000 non-null  	int64         
+>16  com_board        		100000 non-null  	int64         
+>17  borocode         		100000 non-null  	int64         
+>18  council_distr    		100000 non-null 	int64         
+>19  state_assem      		100000 non-null  	int64         
+>20  state_senate     		100000 non-null  	int64         
+>21  nta_code         		100000 non-null  	object        
+>22  census_track     		100000 non-null  	int64         
+>23  state            		100000 non-null  	object        
+>24  latitude         		100000 non-null  	float64       
+>25  longitude        		100000 non-null  	float64       
+>26  X_sp_coord      		100000 non-null  	float64       
+>27  Y_sp_coord       		100000 non-null  	float64 
 
 The next columns have been removed for data redundancy:
 
@@ -95,8 +91,8 @@ The next columns have been removed for data redundancy:
 >
 >`100000 non-null`
 >
->`Data columns (total 40 columns)`
+>`Data columns (total 28 columns)`
 >
->`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(15)`
+>`dtypes: datetime64[ns](1), float64(4), int64(11), object(12)`
 >
->`memory usage: 24.5+ MB`
+>`memory usage: 21.4+ MB`
