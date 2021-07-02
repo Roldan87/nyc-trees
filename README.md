@@ -51,7 +51,15 @@ Here is the list of the actual columns names and dtypes:
 >10  guards --> `object`<br/>
 >11  sidewalk --> `object`<br/>
 >12  user_type --> `object`<br/>
->13  problems --> `object`<br/>
+>13  root_stone --> `bool`<br/>
+>14  root_grate --> `bool`<br/>
+>15  root_other --> `bool`<br/>
+>16  trunk_wire --> `bool`<br/>
+>17  trunk_light --> `bool`<br/>
+>18  trunk_other --> `bool`<br/>
+>19  branch_light  --> `bool`<br/>
+>20  branch_shoe --> `bool`<br/>
+>21  branch_other --> `bool`<br/>
 >14  address --> `object`<br/>
 >15  zipcode --> `int64`<br/>
 >16  com_board --> `int64`<br/>
@@ -79,20 +87,15 @@ The next columns have been `dropped` for data redundancy:
 >
 >nta_name --> `Removed`(overlapping nta)
 >
->root_stone / root_grate / root_other -->  `Removed` <br/>
->trunk_wire / trunk_light / trunk_other -->  `Removed` <br/>
->branch_light / branch_shoe / branch_other -->  `Removed`<br/>
->
-> (problems --> Kept to sum up all trees problems in 1 column)
-
+> problems --> `Removed` (overlapping root/trunk/branch)
 ## 2. Final `NYC Trees DataFrame` render:
 
 >`RangeIndex: 100000 entries, 0 to 99999`
 >
 >`100000 non-null`
 >
->`Data columns (total 28 columns)`
+>`Data columns (total 36 columns)`
 >
->`dtypes: datetime64[ns](1), float64(4), int64(11), object(12)`
+>`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(11)`
 >
->`memory usage: 21.4+ MB`
+>`memory usage: 21.5+ MB`
