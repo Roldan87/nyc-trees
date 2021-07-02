@@ -18,7 +18,7 @@ My mission, should I choose to accept it, is to help them clean the data so that
 >
 > `nyc_trees_dataset.csv`
 
-## Data Cleaning
+## 1. Data Cleaning
 
 ### Missing values (null):
 
