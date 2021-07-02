@@ -1,6 +1,6 @@
 # NYC Street Trees Census - Data Cleaning
 
-![NYC Picture (Image)](https://viajes.nationalgeographic.com.es/medio/2018/11/07/figuras-geometricas-en-central-park_59ddbc26_794x447.jpg)
+![NYC Picture (Image)](https://imgs.6sqft.com/wp-content/uploads/2015/04/21000922/MAPS-by-Jill-Hubley-Explore-NYC-Street-Trees-by-Species-4.png)
 
 ## The Mission
 
