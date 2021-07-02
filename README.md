@@ -52,15 +52,8 @@ Here is the list of the actual columns names and dtypes:
 >11. guards  --> `object`
 >12. sidewalk  --> `object`
 >13. user_type --> `object`
->14. root_stone --> `bool`
->15. root_grate --> `bool`
->16. root_other --> `bool`
->17. trunk_wire --> `bool`
->18. trunk_light --> `bool`
->19. trunk_other --> `bool`
->20. branch_light --> `bool`
->21. branch_shoe --> `bool`
->22. branch_other --> `bool`
+>14. problems --> òbject` 
+
 >23. address --> `object`
 >24. zipcode --> `int64`
 >25. zip_city --> `object`
@@ -81,9 +74,19 @@ Here is the list of the actual columns names and dtypes:
 
 The next columns have been removed for data redundancy:
 
->the_geom --> `Removed`
+>the_geom --> `Removed` overlapping `longitude` and ´latitude`
 >
->problems --> `Removed`
+>root_stone --> `Removed`
+>root_grate --> `Removed`
+>root_other --> `Removed`
+>trunk_wire --> `Removed`
+>trunk_light --> `Removed`
+>trunk_other --> `Removed`
+>branch_light --> `Removed`
+>branch_shoe --> `Removed`
+>branch_other -->  `Removed`
+>
+> Kept `problems` to sum up all trees problems in 1 column.
 
 ## Final `NYC Trees DataFrame` render:
 
