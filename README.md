@@ -38,34 +38,34 @@ The method chosen to deal with this was to fill these empty cells with a new val
 Some names were changed for better readability, as well as some `dtype` were changed for better usage.<br/>
 Here is the list of the actual columns names and dtypes:
 
->0   creation_date --> `datetime64[ns]`
->1   tree_id --> `int64`         
->2   block_id --> `int64`      		
->3   breast_diameter --> `int64`
->4   stump_diameter --> `int64`
->5   curb_location --> `object` 
->6   status --> `object`  
->7   health --> `object`    
->8   tree_name --> `object`  
->9   steward --> `object`    
->10  guards --> `object` 
->11  sidewalk --> `object`     
->12  user_type --> `object`       
->13  problems --> `object`     
->14  address --> `object`        
->15  zipcode --> `int64`
->16  com_board --> `int64`      
->17  borocode --> `int64`
->18  council_distr --> `int64`
->19  state_assem --> `int64`
->20  state_senate --> `int64`
->21  nta_code --> `object`
->22  census_track --> `int64`
->23  state --> `object`
->24  latitude --> `float64` 
->25  longitude --> `float64`  
->26  X_sp_coord --> `float64` 
->27  Y_sp_coord --> `float64` 
+>0   creation_date --> `datetime64[ns]`<br/>
+>1   tree_id --> `int64`<br/>
+>2   block_id --> `int64`<br/>		
+>3   breast_diameter --> `int64`<br/>
+>4   stump_diameter --> `int64`<br/>
+>5   curb_location --> `object`<br/> 
+>6   status --> `object`<br/>  
+>7   health --> `object`<br/>   
+>8   tree_name --> `object`<br/>  
+>9   steward --> `object`<br/>    
+>10  guards --> `object`<br/> 
+>11  sidewalk --> `object`<br/>     
+>12  user_type --> `object`<br/>       
+>13  problems --> `object`<br/>     
+>14  address --> `object`<br/> 
+>15  zipcode --> `int64`<br/>
+>16  com_board --> `int64`<br/>   
+>17  borocode --> `int64`<br/>
+>18  council_distr --> `int64`<br/>
+>19  state_assem --> `int64`<br/>
+>20  state_senate --> `int64`<br/>
+>21  nta_code --> `object`<br/>
+>22  census_track --> `int64`<br/>
+>23  state --> `object`<br/>
+>24  latitude --> `float64`<br/>
+>25  longitude --> `float64`<br/>
+>26  X_sp_coord --> `float64`<br/>
+>27  Y_sp_coord --> `float64`<br/>
 
 The next columns have been removed for data redundancy:
 
