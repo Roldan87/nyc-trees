@@ -60,20 +60,20 @@ Here is the list of the actual columns names and dtypes:
 >19  branch_light  --> `bool`<br/>
 >20  branch_shoe --> `bool`<br/>
 >21  branch_other --> `bool`<br/>
->14  address --> `object`<br/>
->15  zipcode --> `int64`<br/>
->16  com_board --> `int64`<br/>
->17  borocode --> `int64`<br/>
->18  council_distr --> `int64`<br/>
->19  state_assem --> `int64`<br/>
->20  state_senate --> `int64`<br/>
->21  nta_code --> `object`<br/>
->22  census_track --> `int64`<br/>
->23  state --> `object`<br/>
->24  latitude --> `float64`<br/>
->25  longitude --> `float64`<br/>
->26  X_sp_coord --> `float64`<br/>
->27  Y_sp_coord --> `float64`<br/>
+>22  address --> `object`<br/>
+>23  zipcode --> `int64`<br/>
+>24 com_board --> `int64`<br/>
+>25  borocode --> `int64`<br/>
+>26  council_distr --> `int64`<br/>
+>27  state_assem --> `int64`<br/>
+>28  state_senate --> `int64`<br/>
+>29  nta_code --> `object`<br/>
+>30  census_track --> `int64`<br/>
+>31  state --> `object`<br/>
+>32  latitude --> `float64`<br/>
+>33  longitude --> `float64`<br/>
+>34  X_sp_coord --> `float64`<br/>
+>35  Y_sp_coord --> `float64`<br/>
 
 The next columns have been `dropped` for data redundancy:
 
