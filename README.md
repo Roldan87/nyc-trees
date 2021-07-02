@@ -85,9 +85,10 @@ The next columns have been `dropped` for data redundancy:
 >
 >zip_city --> `Removed` (overlapping zipcode)
 >
->nta_name --> `Removed`(overlapping nta)
+>nta_name --> `Removed` (overlapping nta)
 >
 > problems --> `Removed` (overlapping root/trunk/branch)
+
 ## 2. Final `NYC Trees DataFrame` render:
 
 >`RangeIndex: 100000 entries, 0 to 99999`
