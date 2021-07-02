@@ -64,18 +64,14 @@ Here is the list of the actual columns names and dtypes:
 >21  branch_other --> `bool`<br/>
 >22  address --> `object`<br/>
 >23  zipcode --> `int64`<br/>
->24 com_board --> `int64`<br/>
->25  borocode --> `int64`<br/>
->26  council_distr --> `int64`<br/>
->27  state_assem --> `int64`<br/>
->28  state_senate --> `int64`<br/>
->29  nta_code --> `object`<br/>
->30  census_track --> `int64`<br/>
->31  state --> `object`<br/>
->32  latitude --> `float64`<br/>
->33  longitude --> `float64`<br/>
->34  X_sp_coord --> `float64`<br/>
->35  Y_sp_coord --> `float64`<br/>
+>24  borocode --> `int64`<br/>
+>25  nta_code --> `object`<br/>
+>26  census_track --> `int64`<br/>
+>27  state --> `object`<br/>
+>28  latitude --> `float64`<br/>
+>29  longitude --> `float64`<br/>
+
+
 
 The next columns have been `dropped` for data redundancy:
 
@@ -85,11 +81,15 @@ The next columns have been `dropped` for data redundancy:
 >
 >boroname --> `Removed` (overlapping borocode)
 >
+>com_board / council_distr / state_assem / state_senate --> `Removed` (Enough Geocodes)
+>
 >zip_city --> `Removed` (overlapping zipcode)
 >
 >nta_name --> `Removed` (overlapping nta)
 >
 > problems --> `Removed` (overlapping root/trunk/branch)
+>
+>X-Y_sp_coordinates --> `Removed` (Enough Geocodes)
 
 ## 2. Final `NYC Trees DataFrame` render:
 
@@ -97,8 +97,8 @@ The next columns have been `dropped` for data redundancy:
 >
 >`100000 non-null`
 >
->`Data columns (total 36 columns)`
+>`Data columns (total 30 columns)`
 >
->`dtypes: bool(9), datetime64[ns](1), float64(4), int64(11), object(11)`
+>`dtypes: bool(9), datetime64[ns](1), float64(2), int64(7), object(11)`
 >
->`memory usage: 21.5+ MB`
+>`memory usage: 16.9+ MB`
