@@ -85,7 +85,7 @@ The next columns have been removed for data redundancy:
 >
 > (problems --> Kept to sum up all trees problems in 1 column)
 
-## Final `NYC Trees DataFrame` render:
+## 2. Final `NYC Trees DataFrame` render:
 
 >`RangeIndex: 100000 entries, 0 to 99999`
 >
