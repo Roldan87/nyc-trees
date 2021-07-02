@@ -33,9 +33,9 @@ My mission, should I choose to accept it, is to help them clean the data so that
 The method chosen to deal with this was to fill these empty cells with a new value.
 `"Unknown"` was created to prevent the loss of the rest of the data from these rows.
 
-### Columns Names & DataTypes
+### Columns:
 
-Some names were changed for better readability, as well as some `dtype` were changed for better usage.<br/>
+Some columns `labels` were changed for better readability, as well as some `dtype` were changed for better usage.<br/>
 Here is the list of the actual columns names and dtypes:
 
 >0   creation_date --> `datetime64[ns]`<br/>
@@ -67,11 +67,11 @@ Here is the list of the actual columns names and dtypes:
 >26  X_sp_coord --> `float64`<br/>
 >27  Y_sp_coord --> `float64`<br/>
 
-The next columns have been removed for data redundancy:
+The next columns have been `dropped` for data redundancy:
 
 >the_geom --> `Removed` (overlapping longitude and latitude)
 >
->latin_name --> `Merged` ( "tree_name" = common_name + latin_name)
+>latin_name & common_name --> `Merged` ( "tree_name" = common_name + latin_name)
 >
 >boroname --> `Removed` (overlapping borocode)
 >
