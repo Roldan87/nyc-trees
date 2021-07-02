@@ -16,6 +16,8 @@ My mission, should I choose to accept it, is to help them clean the data so that
 >
 >`Readme.md`
 >
+> `trees_cleaning.ipynb`
+>
 > `nyc_trees_dataset.csv`
 
 ## 1. Data Cleaning
