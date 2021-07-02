@@ -53,24 +53,23 @@ Here is the list of the actual columns names and dtypes:
 >12. sidewalk  --> `object`
 >13. user_type --> `object`
 >14. problems --> òbject` 
-
->23. address --> `object`
->24. zipcode --> `int64`
->25. zip_city --> `object`
->26. com_board --> `int64`
->27. borocode --> `int64`
->28. boroname --> `object`
->29. council_distr --> `int64`
->30. state_assem --> `int64`
->31. state_senate --> `int64`
->32. nta_code --> `object`
->33. nta_name --> `object`
->34. census_track --> `int64`
->35. state --> `object`
->36. latitude --> `float64`
->37. longitude --> `float64`
->38. X_sp_coord --> `float64`
->39. Y_sp_coord --> `float64`
+>15. address --> `object`
+>16. zipcode --> `int64`
+>17. zip_city --> `object`
+>18. com_board --> `int64`
+>19. borocode --> `int64`
+>20. boroname --> `object`
+>21. council_distr --> `int64`
+>22. state_assem --> `int64`
+>23. state_senate --> `int64`
+>24. nta_code --> `object`
+>25. nta_name --> `object`
+>26. census_track --> `int64`
+>27. state --> `object`
+>28. latitude --> `float64`
+>29. longitude --> `float64`
+>30. X_sp_coord --> `float64`
+>31. Y_sp_coord --> `float64`
 
 The next columns have been removed for data redundancy:
 
