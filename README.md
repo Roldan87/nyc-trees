@@ -73,19 +73,11 @@ Here is the list of the actual columns names and dtypes:
 
 The next columns have been removed for data redundancy:
 
->the_geom --> `Removed` overlapping `longitude` and ´latitude`
+>the_geom --> `Removed` overlapping longitude and latitude
 >
->root_stone --> `Removed`
->root_grate --> `Removed`
->root_other --> `Removed`
->trunk_wire --> `Removed`
->trunk_light --> `Removed`
->trunk_other --> `Removed`
->branch_light --> `Removed`
->branch_shoe --> `Removed`
->branch_other -->  `Removed`
+>root_stone / root_grate / root_other / trunk_wire / trunk_light / trunk_other / branch_light / branch_shoe / branch_other -->  `Removed`
 >
-> Kept `problems` to sum up all trees problems in 1 column.
+> problems --> Kept to sum up all trees problems in 1 column.
 
 ## Final `NYC Trees DataFrame` render:
 
