@@ -46,8 +46,8 @@ Here is the list of the actual columns names and dtypes:
 >5. curb_location --> `object`
 >6. status  --> `object`
 >7. health  --> `object`
->8. latin_name  --> `object`
->9. common_name  --> `object`
+
+>9. tree_name  --> `object`
 >10. steward  --> `object`
 >11. guards  --> `object`
 >12. sidewalk  --> `object`
@@ -74,6 +74,8 @@ Here is the list of the actual columns names and dtypes:
 The next columns have been removed for data redundancy:
 
 >the_geom --> `Removed` (overlapping longitude and latitude)
+>
+>latin_name --> `Merged` ( "tree_name" = common_name + latin_name)
 >
 >boroname --> `Removed` (overlapping borocode)
 >
