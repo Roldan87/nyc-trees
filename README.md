@@ -71,8 +71,6 @@ Here is the list of the actual columns names and dtypes:
 >28  latitude --> `float64`<br/>
 >29  longitude --> `float64`<br/>
 
-
-
 The next columns have been `dropped` for data redundancy:
 
 >the_geom --> `Removed` (overlapping longitude and latitude)
@@ -93,6 +91,8 @@ The next columns have been `dropped` for data redundancy:
 
 ## 2. Final `NYC Trees DataFrame` render:
 
+>The dataset is sorted by tree `creation_date` series (ascending = True)
+>
 >`RangeIndex: 100000 entries, 0 to 99999`
 >
 >`100000 non-null`
